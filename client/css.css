@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+.head {
+    /* height: 20%; */
+    /* text-decoration-color: aquamarine; */
+    padding-top: 2%;
+    padding-bottom: 1%;
+    padding-left: 30px;
+    background-color: #f28e1c;
+    color: black;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input {
+    width: 60%;
+    padding: 10px;
+    margin-top: 5%;
+    margin-left: 3%;
+    border-radius: 4px;
+    background-color: #f28e1c;
+    /* margin-left: 20px; */
+    padding-left: 30px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+.body {
+    height: fit-content;
+    background-color: black;
+}
+
+
+
+.suggestion {
+    width: 60%;
+    margin-left: 3%;
+    border-radius: 4px;
+    background-color: gray;
+    padding-left: 30px;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.suggestion :hover {
+    padding: 6px;
+    background-color: azure;
+    color: black;
+    border-radius: 3px;
+}
+
+.submit {
+    background-color: #f28e1c;
+    color: black;
+    padding: 8px;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.container {
+    /* width: 100%; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Creates 3 equal-width columns */
+    gap: 15px;
+    /* Adds space between grid items */
+    /* padding: 15px; */
+    /* Optional padding for the container */
+}
+
+.card {
+    background-color: black;
+    /* Ensure background color is set */
+    height: auto;
+    /* Adjust height to auto to fit content */
+    border: 1px solid #f28e1c;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 4px;
+    /* box-sizing: border-box; */
+
+}
+
+.overview {
+    display: -webkit-box;
+    /* Enables limiting lines */
+    -webkit-line-clamp: 2;
+    /* Limits to 2 lines */
+    -webkit-box-orient: vertical;
+    /* Specifies vertical box orientation */
+    overflow: hidden;
+    /* Hides the overflowing text */
+    text-overflow: ellipsis;
+    /* Adds "..." at the end */
+}
+
+.footer {
+    text-align: center;
+    height: 5%;
+    background-color: #f28e1c;
+}
